@@ -21,9 +21,6 @@ public class Output {
         int row = 0;
         int column = 0;
 
-        /* 1-second time delay, so that the user can switch to the Sudoku tab.  */
-        Thread.sleep(2000);
-
         while (true) {
 
             /* Keycode 96 is 0, and it adds the cell value.  */
