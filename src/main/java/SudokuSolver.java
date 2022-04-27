@@ -20,10 +20,11 @@ public class SudokuSolver {
 
 
     public static void main(String[] args) throws AWTException, InterruptedException, IOException {
+        long start = System.currentTimeMillis();
+
         board = new Board(NYTimesInput.scrape("hard"));
         boxes = board.generateBoxes();
 
-        long start = System.currentTimeMillis();
         SolvingAlgorithm.solve(board, boxes);
         System.out.println(board);
         System.out.println("Solved the puzzle in " + (System.currentTimeMillis() - start) + " milliseconds.");
