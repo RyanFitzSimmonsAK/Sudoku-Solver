@@ -18,6 +18,7 @@ public class Board {
      * Constructor that fills in the ArrayList with Cell objects.
      * @param puzzleCode A string representation of a Sudoku board, similar to a FEN from Chess.
      * A 0 represents an empty cell, a number represents a provided hint, and a slash represents a new row in the board.
+     * Example : 009005000/005074690/040300000/003006004/910040000/250700100/090800000/100020006/002000300
      */
     public Board(String puzzleCode) {
         /* Creates the first row in the board. */
