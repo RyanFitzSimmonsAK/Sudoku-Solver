@@ -1,4 +1,4 @@
-# Sudoku-Solver
+# Sudoku Solver
 A Sudoku Solver using a backtracking algorithm with recursion.
 
 The Output class is able to execute the keyboard controls needed to input a completed Sudoku board onto sites like sudoku.com and the NYT.
