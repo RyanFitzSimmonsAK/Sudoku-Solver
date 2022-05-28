@@ -47,6 +47,7 @@ public class ValidityChecker {
             }
         }
 
+        /* Procedurally checking boxes for conflicts.  */
         for (ArrayList<Cell> box : boxes) {
             accumulative.clear();
 
